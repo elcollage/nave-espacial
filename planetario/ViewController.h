@@ -10,4 +10,19 @@
 
 @interface ViewController : UIViewController
 
+
+@property (nonatomic, strong) CALayer *capa;
+@property (nonatomic, strong) CALayer *tierra;
+@property (nonatomic, strong) CALayer *nave;
+
+
+
+- (IBAction)animar:(id)sender;
+
+
+
+
+
+
+
 @end
